@@ -2,8 +2,10 @@
 1. Use the countries API to fetch data about countries. (5 pt)
 
       ```js
-      const API_URL = 'https://restcountries.com/v3/all'
+      const API_URL = 'https://restcountries.eu/rest/v2/all'
       ```
+
+    Use the countries API to fetch data about countries.
 
     - How many languages are there in the countries API
     - Find the 15 most spoken languages
