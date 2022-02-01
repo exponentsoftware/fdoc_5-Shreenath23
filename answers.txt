@@ -1,15 +1,15 @@
 forEach():- The forEach() method used for loop over entire array of element in the array. It returns each element in the array by processing the function that function known as callback function and it takes three arguments. First argument is main argument of the function and other two are optional.
- forEach((element,index,array)=>{....})
+forEach((element,index,array)=>{....})
 
 ex: let arr =[1,2,3,4,5];
 const result=arr.forEach(element=>{element});
 console.log(result)
 //output
-//1
-//2
-//3
-//4
-//5
+1
+2
+3
+4
+5
 
 map():- The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
 map((element,index,array)=>{....})
@@ -55,7 +55,7 @@ let arr = [1, 2, 3, 4, 5];
 let result= arr.find((element)=>element<3)
 console.log(result)
 //output
-//1
+1
 
 
 Q:-If you like to filter out one object element in an array which method do you like to use: filter or find ?
